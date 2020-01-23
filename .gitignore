@@ -2,4 +2,4 @@
 .vscode/
 
 # python cache
-.pyc
+*.pyc
