@@ -100,7 +100,7 @@ class SnakeGame(object):
 class PyBlock(Block):
     def __init__(self, x, y):
         super(PyBlock, self).__init(x, y)
-        self.color =
+        # TODO
 
 
 def main():
@@ -124,7 +124,8 @@ def main():
     text = "欢迎进入贪食蛇游戏，请按任意键开始"
     # font = pygame.font.Font(None, 60)
     screen.fill(WHITE)
-    font = pygame.font.SysFont('SimHei', 32)
+    # font = pygame.font.SysFont('SimHei', 32)
+    font = pygame.font.SysFont('tlwgtypo', 32)
     font_img = font.render(text, True, RED, None)
     screen.blit(font_img, (20, 9))
 
