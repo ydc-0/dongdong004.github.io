@@ -28,5 +28,10 @@
   > the -X option does away with that behaviour. 
 
 # git large file
-- 
+- https://git-lfs.github.com/
 - https://ar.al/2019/10/19/install-git-lfs-on-a-raspberry-pi/
+
+# git editor
+- 更改 git commit 默认使用的编辑器
+- `git config --global core.editor vim`
+- 或者编辑 `~/.gitconfig` 在 `[core]` 下面添加 `editor = vim`
